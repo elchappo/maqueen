@@ -5,8 +5,8 @@ input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Sad)
 })
 basic.showIcon(IconNames.Happy)
-let turnSpeed = 50
-let forwardSpeed = 100
+let turnSpeed = 25
+let forwardSpeed = 50
 let strip = neopixel.create(DigitalPin.P15, 24, NeoPixelMode.RGB)
 strip.showColor(neopixel.colors(NeoPixelColors.White))
 basic.forever(function () {
